@@ -1,0 +1,41 @@
+/* home.css */
+
+.file {
+    margin: 20px auto;
+    max-width: 600px;
+    margin-top: 35px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .first {
+    margin-bottom: 7px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .second {
+    background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  }
+  
+  /* Responsive styles */
+  @media only screen and (max-width: 600px) {
+    .file {
+      max-width: 90%;
+    }
+  }
+  

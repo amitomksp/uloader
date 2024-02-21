@@ -1,0 +1,31 @@
+body{
+    /* background-color: #111111; */
+    /* height: 11111px;; */
+}
+
+.container{
+    margin-top: -20px;
+    padding: 0px;
+    display: flex;
+    background-color: #111111;
+    border: 2px solid black;
+    justify-content: space-between;
+    /* position: fixed; */
+    width: 100%;
+    background-color: rgb(43, 41, 41);
+    height: 70px;
+}
+
+.leftul > a{
+ display: flex;  
+ gap: 4vw;
+ margin-left: 10px;
+ margin-top: 30px;
+ list-style-type: none;
+ font-size: large;
+ font-weight: bold;
+ color: white;
+ letter-spacing: 1px;
+ cursor: pointer;
+ text-decoration: none;
+}
